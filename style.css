@@ -13,7 +13,8 @@
 }
 
 .flex-item {
-  background-color: gainsboro;
+  border: 1px solid rgba(128, 128, 128, 0.49);
+  background-color: none;
   flex-basis: 45%;
   flex-grow: 1;
 }
@@ -30,7 +31,7 @@
   flex-direction: column;
   justify-content: center;
   overflow: hidden;
-  height: 350px;
+  height: 500px;
 }
 
 .image_wrapper h1 {
@@ -40,5 +41,5 @@
 .item-image {
   width: 100%;
   height: 100%;
-  object-fit: cover;
+  object-fit: contain;
 }
